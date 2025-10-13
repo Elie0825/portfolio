@@ -12,11 +12,17 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with: { node-version: '20' }
-      - run: npm install
+
+      - name: Install
+        run: npm install
         working-directory: elie-react
-      - run: npm run build
+
+      - name: Build
+        run: npm run build
         working-directory: elie-react
-      - uses: Azure/static-web-apps-deploy@v1
+
+      - name: Deploy
+        uses: Azure/static-web-apps-deploy@v1
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
           app_location: "elie-react"
