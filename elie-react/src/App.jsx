@@ -22,8 +22,7 @@ export default function App() {
                         <div>
                             <h2>About</h2>
                             <p>
-                                I build simple web apps and services with Java + Spring Boot and
-                                Node + TypeScript. Clean UI, small APIs.
+                               jag är student i STI.
                             </p>
                         </div>
                         <div className="card stats">
