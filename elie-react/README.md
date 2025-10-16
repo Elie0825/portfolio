@@ -3,7 +3,10 @@
 En enkel portfolio byggd i React och deployad på **Azure Static Web Apps**.
 
 ## Live
-- URL: https://<din-app>.azurestaticapps.net
+
+Elie F
+13 okt 21:37
+https://polite-beach-0e9ecc01e.2.azurestaticapps.net
 
 ## Skärmdumpar
 - Deploy-översikt: ![img.png](img.png)
